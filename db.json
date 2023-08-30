@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user@test.com",
+      "password": "mypassword",
+      "firstName": "Test",
+      "lastName": "User",
+      "phone": "09086327281",
+      "dob": "18-04-1992",
+      "subscribed": false
+    }
+  ],
+  "auth": [
+    {
+      "id": 1,
+      "code": 8732,
+      "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdGVzdC5jb20iLCJwYXNzd29yZCI6Im15cGFzc3dvcmQifQ.K45fKEAkjXALV0G9_IOoovqnYUJjGn8hAr95iy1u2Eg"
+    },
+    {
+      "id": 2,
+      "code": 4423,
+      "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdGVzdC5jb20iLCJwYXNzd29yZCI6Im15cGFzc3dvcmQifQ.K45fKEAkjXALV0G9_IOoovqnYUJjGn8hAr95iy1u2Eg"
+    },
+    {
+      "id": 3,
+      "code": 9873,
+      "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAdGVzdC5jb20iLCJwYXNzd29yZCI6Im15cGFzc3dvcmQifQ.K45fKEAkjXALV0G9_IOoovqnYUJjGn8hAr95iy1u2Eg"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "type": "movie",
+      "image": "",
+      "description": "Description",
+      "director": "Dir K",
+      "ticketQty": 100,
+      "title": "Spiderman",
+      "location": "Ikeja",
+      "price": 2000,
+      "ticketType": "regular",
+      "date": "11-05-2023",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Action",
+          "type": "cinema"
+        }
+      ],
+      "time": "11:00",
+      "rating": 4.5,
+      "refreshments": []
+    }
+  ],
+  "cast": [
+    {
+      "id": 1,
+      "name": "Susan",
+      "image": ""
+    }
+  ],
+  "refreshments": [
+    {
+      "id": 1,
+      "name": "Sausages",
+      "qty": 2,
+      "price": 1000
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "type": "movie",
+      "image": "",
+      "description": "Description",
+      "director": "Dir K",
+      "ticketQty": 100,
+      "title": "Spiderman",
+      "location": "Ikeja",
+      "price": 2000,
+      "ticketType": "regular",
+      "date": "11-05-2023",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Action",
+          "type": "cinema"
+        }
+      ],
+      "time": "11:00",
+      "rating": 4.5,
+      "refreshments": []
+    },
+    {
+      "id": 2,
+      "type": "movie",
+      "image": "",
+      "description": "Description 2",
+      "director": "Iglesias",
+      "ticketQty": 120,
+      "title": "Black Panther",
+      "location": "Lekki",
+      "price": 3000,
+      "ticketType": "vip",
+      "date": "17-08-2023",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Action",
+          "type": "cinema"
+        }
+      ],
+      "time": "12:40",
+      "rating": 4.8,
+      "refreshments": []
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "image": "",
+      "name": "Viva Cinemas",
+      "location": "Lekki"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Musical",
+      "type": "events"
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "type": "events"
+    },
+    {
+      "id": 3,
+      "name": "Food & Drinks",
+      "type": "events"
+    },
+    {
+      "id": 4,
+      "name": "Performance",
+      "type": "events"
+    },
+    {
+      "id": 5,
+      "name": "Comedy",
+      "type": "events"
+    },
+    {
+      "id": 6,
+      "name": "Shirts",
+      "type": "merchandise"
+    },
+    {
+      "id": 7,
+      "name": "Shoes",
+      "type": "merchandise"
+    },
+    {
+      "id": 8,
+      "name": "Cap",
+      "type": "merchandise"
+    },
+    {
+      "id": 9,
+      "name": "Water Bottle",
+      "type": "merchandise"
+    },
+    {
+      "id": 10,
+      "name": "Action",
+      "type": "cinema"
+    },
+    {
+      "id": 11,
+      "name": "Romance",
+      "type": "cinema"
+    },
+    {
+      "id": 12,
+      "name": "Adventure",
+      "type": "cinema"
+    },
+    {
+      "id": 13,
+      "name": "Sci-Fi",
+      "type": "cinema"
+    }
+  ],
+  "merchandise": [
+    {
+      "id": 1,
+      "name": "T-Shirt",
+      "image": "",
+      "price": 1000,
+      "description": "Description for Merch",
+      "categories": [
+        {
+          "id": 6,
+          "name": "Shirts",
+          "type": "merchandise"
+        }
+      ]
+    }
+  ]
+}
